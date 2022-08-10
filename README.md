@@ -6,7 +6,7 @@ How to use:
 
 * `git clone https://github.com/minhgalaxy/ca_generator.git`
 
-* `python3 ca_generator.py`
+* `python3 generate_cert.py`
 
 * `adb push 35aa2e12.0 /sdcard/`
 

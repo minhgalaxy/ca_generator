@@ -12,4 +12,4 @@ How to use:
 
 * `adb shell cp /sdcard/35aa2e12.0 /etc/security/cacerts/`
 
-#Credit: https://github.com/Hamz-a/frida-android-helper
+Credit: [https://github.com/Hamz-a/frida-android-helper](https://github.com/Hamz-a/frida-android-helper)

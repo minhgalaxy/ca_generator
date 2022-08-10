@@ -1,7 +1,8 @@
 # Generate Root CA
 
 This script auto generate CA to bypass SSL Pinning on Android >= 7.0.
-Steps:
+
+How to use:
 
 * `git clone https://github.com/minhgalaxy/ca_generator.git`
 

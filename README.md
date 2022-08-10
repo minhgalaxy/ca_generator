@@ -3,10 +3,12 @@
 This script auto generate CA to bypass SSL Pinning on Android >= 7.0.
 Steps:
 
-[+] `python3 ca_generator.py`
+* `git clone https://github.com/minhgalaxy/ca_generator.git`
 
-[+] `adb push 35aa2e12.0 /sdcard/`
+* `python3 ca_generator.py`
 
-[+] `adb shell cp /sdcard/35aa2e12.0 /etc/security/cacerts/`
+* `adb push 35aa2e12.0 /sdcard/`
+
+* `adb shell cp /sdcard/35aa2e12.0 /etc/security/cacerts/`
 
 #Credit: https://github.com/Hamz-a/frida-android-helper

@@ -10,6 +10,8 @@ How to use:
 
 * `adb push 35aa2e12.0 /sdcard/`
 
-* `adb shell cp /sdcard/35aa2e12.0 /etc/security/cacerts/`
+* Copy file `/sdcard/35aa2e12.0` to  `/etc/security/cacerts/`
+
+* `chmod 777 /etc/security/cacerts/35aa2e12.0`
 
 Credit: [https://github.com/Hamz-a/frida-android-helper](https://github.com/Hamz-a/frida-android-helper)

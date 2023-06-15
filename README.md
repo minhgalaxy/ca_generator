@@ -14,4 +14,6 @@ How to use:
 
 * `chmod 777 /etc/security/cacerts/35aa2e12.0`
 
+* Reboot device 
+
 Credit: [https://github.com/Hamz-a/frida-android-helper](https://github.com/Hamz-a/frida-android-helper)

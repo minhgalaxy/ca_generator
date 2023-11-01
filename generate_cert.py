@@ -26,18 +26,18 @@ builder = x509.CertificateBuilder().subject_name(x509.Name([
     x509.NameAttribute(x509.oid.NameOID.COUNTRY_NAME, "DZ"),
     x509.NameAttribute(x509.oid.NameOID.STATE_OR_PROVINCE_NAME, "ORAN"),
     x509.NameAttribute(x509.oid.NameOID.LOCALITY_NAME, "ORAN"),
-    x509.NameAttribute(x509.oid.NameOID.ORGANIZATION_NAME, "FAH Corp"),
-    x509.NameAttribute(x509.oid.NameOID.ORGANIZATIONAL_UNIT_NAME, "FAH"),
-    x509.NameAttribute(x509.oid.NameOID.COMMON_NAME, "FAH CA"),
-    x509.NameAttribute(x509.oid.NameOID.EMAIL_ADDRESS, "info@example.com"),
+    x509.NameAttribute(x509.oid.NameOID.ORGANIZATION_NAME, "GalaxyOne"),
+    x509.NameAttribute(x509.oid.NameOID.ORGANIZATIONAL_UNIT_NAME, "G1"),
+    x509.NameAttribute(x509.oid.NameOID.COMMON_NAME, "GalaxyOne CA"),
+    x509.NameAttribute(x509.oid.NameOID.EMAIL_ADDRESS, "info@galaxy.one"),
 ])).issuer_name(x509.Name([
     x509.NameAttribute(x509.oid.NameOID.COUNTRY_NAME, "DZ"),
     x509.NameAttribute(x509.oid.NameOID.STATE_OR_PROVINCE_NAME, "ORAN"),
     x509.NameAttribute(x509.oid.NameOID.LOCALITY_NAME, "ORAN"),
-    x509.NameAttribute(x509.oid.NameOID.ORGANIZATION_NAME, "FAH Corp"),
-    x509.NameAttribute(x509.oid.NameOID.ORGANIZATIONAL_UNIT_NAME, "FAH"),
-    x509.NameAttribute(x509.oid.NameOID.COMMON_NAME, "FAH CA"),
-    x509.NameAttribute(x509.oid.NameOID.EMAIL_ADDRESS, "info@example.com"),
+    x509.NameAttribute(x509.oid.NameOID.ORGANIZATION_NAME, "GalaxyOne"),
+    x509.NameAttribute(x509.oid.NameOID.ORGANIZATIONAL_UNIT_NAME, "G1"),
+    x509.NameAttribute(x509.oid.NameOID.COMMON_NAME, "GalaxyOne CA"),
+    x509.NameAttribute(x509.oid.NameOID.EMAIL_ADDRESS, "info@galaxy.one"),
 ])).not_valid_before(datetime.today() - timedelta(days=1))\
     .not_valid_after(datetime.today() + timedelta(days=365 * 2))\
     .serial_number(int(uuid4()))\
